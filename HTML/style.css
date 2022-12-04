@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(182, 228, 206);
+}
+h1{
+    color: red;
+    font-family: 'NeueMachina-Bold', sans-serif;
+}
+h2{
+    color: yellow;
+}
+@font-face {
+	font-family: 'NeueMachina-Bold';
+	src: url('fonts/neuemachina-bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/neuemachina-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/neuemachina-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/neuemachina-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/neuemachina-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/neuemachina-bold.svg#neuemachina-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+.text_strong{
+    font-size: 22px;
+    font-style: italic;
+}
+#ass{
+    font-size: 22px;
+    font-weight: bold;
+}
