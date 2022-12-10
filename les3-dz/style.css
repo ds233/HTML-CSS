@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.menu-bar {
+    margin-top: 40px;
+}
+
+.header-logo {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navigation {
+    padding-top: 11px;
+    padding-bottom: 12px;
+
+}
+
+main {
+    margin-top: 149px;
+    margin-bottom: 53px;
+}
+
+footer {
+    margin-bottom: 47px;
+}
+
+.main-title {
+    margin-top: 74px;
+}
+
+.main-p {
+    margin-top: 17px;
+    margin-bottom: 16px;
+}
+
+.butt-rect {
+    padding-top: 36px;
+    padding-bottom: 39px;
+}
+
+.btn {
+    padding: 15px 36px 16px 35px;
+}
+
+.logos {
+    margin-top: 112px;
+}
