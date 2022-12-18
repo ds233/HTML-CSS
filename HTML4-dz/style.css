@@ -1,0 +1,156 @@
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(./fonts/Gilroy-Regular.woff2);
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(./fonts/Gilroy-Bold.woff2);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    width: 1915px;
+    margin: 0 auto;
+}
+
+.top-grid {
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 404px;
+    margin-right: 401px;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #FFFFFF;
+}
+
+.card {
+    padding: 40px 31px 25px 29px;
+}
+
+.card-white {
+    padding: 40px 31px 25px 29px;
+    background: #FFFFFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+h2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.top-h2 {
+    margin-top: 25px;
+    margin-bottom: 17px;
+}
+
+.top-p {
+    margin-bottom: 25px;
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.top-a {
+    font-family: 'Gilroy-Bold';
+    font-size: 11px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.container2 {
+    width: 1915px;
+    margin: 0 auto;
+    background: #FAFAFA;
+}
+
+.bottom-grid {
+    display: grid;
+    justify-content: center;
+    margin: 55px 375px 100px 375px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.header-btm-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 92px;
+    margin-bottom: 19px;
+    font-family: 'Gilroy-Bold';
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+}
+
+.btm-p {
+    max-width: 682px;
+    font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #666666;
+}
+
+.card2 {
+    width: 370px;
+    height: 549px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #FFFFFF;
+}
+
+.card25 {
+    width: 370px;
+    height: 549px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.btm-grid-p {
+    margin: 22px 30px 39px 30px;
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #AAAAAA;
+}
+
+button {
+    padding: 15px 36px 15px 46px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2em;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    font-family: 'Gilroy-Bold';
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
