@@ -10,6 +10,10 @@ img {
     max-width: 100%;
 }
 
+header {
+    background: #222222;
+}
+
 .container {
     width: 1600px;
     margin: 0 auto;
@@ -45,6 +49,10 @@ img {
     display: flex;
     align-items: center;
     gap: 33px;
+}
+
+.main-bkg {
+    background: #F1E4E6;
 }
 
 .main-block {
@@ -263,4 +271,141 @@ button {
     font-size: 16px;
     line-height: 19px;
     color: #F26376;
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        width: 768px;
+    }
+
+    .logo {
+        margin-bottom: 18px;
+    }
+
+    .finder {
+        margin-bottom: 19px;
+    }
+
+    .left-part {
+        margin-left: 32px;
+    }
+
+    .menu-items {
+        margin-top: 27px;
+        margin-right: 41px;
+        margin-bottom: 18px;
+        gap: 25px;
+    }
+
+    .main-block {
+        gap: 39px;
+    }
+
+    .main-pic {
+        width: 386px;
+        height: 368px;
+    }
+
+    .main-title {
+        margin-top: 138px;
+        margin-bottom: 138px;
+        margin-right: 34px;
+        gap: 16px;
+    }
+
+    .title {
+        width: 283px;
+        height: 78px;
+    }
+
+    .title900 {
+        font-size: 44px;
+        line-height: 53px;
+    }
+
+    .title700 {
+        font-size: 24px;
+        line-height: 29px;
+        gap: 3px;
+    }
+
+    .sections {
+        padding: 65px 16px 110px 16px;
+    }
+
+    .cards {
+        gap: 19px;
+    }
+
+    .card1 {
+        width: 232px;
+        height: 168px;
+    }
+
+    .card1-text {
+        margin-top: 59px;
+        margin-bottom: 59px;
+        margin-left: 39px;
+        margin-right: 39px;
+    }
+
+    .card2 {
+        width: 232px;
+        height: 168px;
+    }
+
+    .card2-text {
+        margin-top: 57px;
+        margin-bottom: 61px;
+        margin-left: 61px;
+        margin-right: 61px;
+    }
+
+    .card3 {
+        width: 232px;
+        height: 168px;
+    }
+
+    .card3-text {
+        margin-top: 58px;
+        margin-bottom: 59px;
+        margin-left: 59px;
+        margin-right: 58px;
+    }
+
+    .card-big {
+        width: 735px;
+        height: 116px;
+    }
+
+    .card-big-text {
+        margin-top: 33px;
+        margin-bottom: 33px;
+        margin-left: 288px;
+        margin-right: 287px;
+    }
+
+    .featured-items {
+        padding: 0px 16px 71px 16px;
+    }
+
+    .fi-title {
+        gap: 3px;
+    }
+
+    .fi-p {
+        margin-bottom: 74px;
+    }
+
+    .fi-cards {
+        gap: 16px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    button {
+        margin-top: 33px;
+    }
+
 }
