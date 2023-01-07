@@ -47,6 +47,7 @@ header {
     margin-right: 240px;
     margin-bottom: 20px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 33px;
 }
@@ -402,6 +403,150 @@ button {
         gap: 16px;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    button {
+        margin-top: 33px;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .container {
+        width: 375px;
+    }
+
+    .logo {
+        margin-bottom: 18px;
+    }
+
+    .finder {
+        margin-bottom: 19px;
+    }
+
+    .left-part {
+        margin-left: 16px;
+    }
+
+    .menu-items {
+        margin-top: 25px;
+        margin-right: 16px;
+        margin-bottom: 26px;
+    }
+
+    .menu-items23 {
+        display: none;
+    }
+
+    .main-block {
+        gap: 0px;
+    }
+
+    .main-pic {
+        display: none;
+    }
+
+    .main-title {
+        width: 12px;
+        height: 61px;
+        margin-top: 148px;
+        margin-bottom: 149px;
+        margin-right: 56px;
+        margin-left: 56px;
+        gap: 15px;
+    }
+
+    .title {
+        width: 236px;
+        height: 66px;
+    }
+
+    .title900 {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .title700 {
+        font-size: 20px;
+        line-height: 24px;
+        gap: 3px;
+    }
+
+    .sections {
+        padding: 64px 16px 64px 16px;
+    }
+
+    .cards {
+        gap: 32px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .card1 {
+        width: 343px;
+        height: 247px;
+    }
+
+    .card1-text {
+        margin-top: 98px;
+        margin-bottom: 99px;
+        margin-left: 94px;
+        margin-right: 95px;
+    }
+
+    .card2 {
+        width: 343px;
+        height: 247px;
+    }
+
+    .card2-text {
+        margin-top: 102px;
+        margin-bottom: 76px;
+        margin-left: 72px;
+        margin-right: 72px;
+    }
+
+    .card3 {
+        width: 343px;
+        height: 247px;
+    }
+
+    .card3-text {
+        margin-top: 105px;
+        margin-bottom: 72px;
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+
+    .card-big {
+        width: 343px;
+        height: 111px;
+    }
+
+    .card-big-text {
+        margin-top: 30px;
+        margin-bottom: 31px;
+        margin-left: 91px;
+        margin-right: 92px;
+    }
+
+    .featured-items {
+        padding: 0px 8px 86px 8px;
+    }
+
+    .fi-title {
+        gap: 3px;
+    }
+
+    .fi-p {
+        margin-bottom: 65px;
+    }
+
+    .fi-cards {
+        gap: 17px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 
     button {
