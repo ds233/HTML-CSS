@@ -50,6 +50,7 @@ header {
     justify-content: space-between;
     align-items: center;
     gap: 33px;
+    position: relative;
 }
 
 .main-bkg {
@@ -62,6 +63,64 @@ header {
     justify-content: flex-start;
     gap: 63.42px;
 }
+
+.main-block-menu {
+    visibility: hidden;
+    position: absolute;
+    width: 232px;
+    height: 634px;
+    left: 0px;
+    top: 50px;
+    background: #FFFFFF;
+    padding: 32px 32px;
+    z-index: 1;
+}
+
+.main-block-menu-title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.main-block-menu-title2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    margin-bottom: 12px;
+}
+
+.main-block-menu-ul {
+    list-style-type: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6F6E6E;
+    margin-bottom: 20px;
+    margin-left: 22px;
+    line-height: 1.9;
+}
+
+.menu-item-burg:hover .main-block-menu {
+    visibility: visible;
+}
+
+/* .main-block::after {
+    position: absolute;
+    width: 232px;
+    height: 634px;
+    left: 1368px;
+    top: 75px;
+    background: #FFFFFF;
+} */
+
 
 .main-title {
     margin-top: 290px;
@@ -215,6 +274,25 @@ header {
     background: #F8F8F8;
 }
 
+.fi-card-pic {
+    width: 360px;
+    height: 420px;
+    display: block;
+    position: relative;
+}
+
+.fi-card-cart {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.fi-card-pic:hover .fi-card-cart {
+    z-index: 1;
+    opacity: 0.86;
+}
+
 .fi-card-title {
     margin-top: 24.35px;
     margin-left: 18px;
@@ -281,10 +359,10 @@ button:hover {
     color: white;
 }
 
-.fi-card:hover {
+/* .fi-card:hover {
     background: rgba(244, 244, 244, 0.9);
     background-image: url('./pic/FI-Hover.png');
-}
+} */
 
 
 .whyus {
@@ -327,9 +405,10 @@ button:hover {
     gap: 16px;
 }
 
-.subscribe-bkg {
+.subscribe {
     background: rgba(244, 244, 244, 0.7);
     background-image: url('./pic/subs-bkg.jpg');
+    background-size: cover;
 }
 
 .subscribe-row {
@@ -476,9 +555,70 @@ footer {
     gap: 8px;
 }
 
-svg:hover {
+.fb-bkg {
+    fill: white;
+}
+
+.fb-logo {
+    fill: black;
+}
+
+.ft-right-fb:hover .fb-bkg {
     fill: #F16D7F;
 }
+
+.ft-right-fb:hover .fb-logo {
+    fill: white;
+}
+
+.inst-bkg {
+    fill: white;
+}
+
+.inst-logo {
+    fill: black;
+}
+
+.ft-right-inst:hover .inst-bkg {
+    fill: #F16D7F;
+}
+
+.ft-right-inst:hover .inst-logo {
+    fill: white;
+}
+
+.p-bkg {
+    fill: white;
+}
+
+.p-logo {
+    fill: black;
+}
+
+.ft-right-p:hover .p-bkg {
+    fill: #F16D7F;
+}
+
+.ft-right-p:hover .p-logo {
+    fill: white;
+}
+
+.tw-bkg {
+    fill: white;
+}
+
+.tw-logo {
+    fill: black;
+}
+
+.ft-right-tw:hover .tw-bkg {
+    fill: #F16D7F;
+}
+
+.ft-right-tw:hover .tw-logo {
+    fill: white;
+}
+
 
 @media (max-width: 768px) {
 
