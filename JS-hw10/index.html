@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .product-box {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            flex-wrap: wrap;
+        }
+
+        .product {
+            width: 250px;
+            border: 1px solid black;
+            padding: 16px;
+        }
+
+        .product_img {
+            max-width: 200px;
+            height: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="product-box"></div>
+    <script src="data.js"></script>
+    <!-- <script>
+        const dt = JSON.parse(data);
+        console.log(dt);
+    </script> -->
+    <script>
+        const dat = JSON.parse(dt);
+        console.log(dat);
+        const productBox = document.querySelector('.product-box');
+
+        dat.forEach(data => {
+            const productEl = document.createElement('div');
+            productEl.classList.add('product');
+
+            const productImg = document.createElement('img');
+            productImg.classList.add('product_img');
+            productImg.setAttribute('alt', data.alt);
+            productImg.src = data.image;
+
+            const productName = document.createElement('h3');
+            productName.classList.add('product_header');
+            productName.textContent = data.header;
+
+            const productText = document.createElement('p');
+            productText.classList.add('product_text');
+            productText.textContent = data.text;
+
+            productBox.appendChild(productEl);
+            productEl.appendChild(productImg);
+            productEl.appendChild(productName);
+            productEl.appendChild(productText);
+
+        });
+
+    </script>
+</body>
+
+</html>
